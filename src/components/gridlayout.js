@@ -2,11 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Layout from './layout'
-import './layout.css'
+import './style.css'
 
 const GridPage = ({ children }) => (
-  <div>
+  <div className="gridPage">
     {children}
   </div>
 )
