@@ -1,5 +1,7 @@
 ---
 title: Research
+backgroundColor: black
+textColor: white
 ---
 
 This is an example of how a markdown page is written.

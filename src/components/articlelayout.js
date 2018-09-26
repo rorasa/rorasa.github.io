@@ -2,12 +2,19 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Layout from './layout'
-import './layout.css'
+import './style.css'
 
-const ArticlePage = ({ children }) => (
+const ArticlePage = (props) => (
   <div>
-    {children}
+    <div className="articleHeader" style={{
+      backgroundColor: props.backgroundColor,
+      color: props.textColor
+    }}>
+      <h1>{props.title}</h1>
+    </div>
+    <div className="articleBody">
+      {props.children}
+    </div>
   </div>
 )
 

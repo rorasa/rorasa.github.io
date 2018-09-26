@@ -73,6 +73,23 @@
   text-overflow: clip;
 }
 
+.articleHeader {
+  height: 200px;
+  max-height: 50vh;
+  padding-top: 5vh;
+  position: relative;
+}
+.articleHeader h1{
+  position: absolute;
+  bottom: 0;
+  left: 5vw;
+}
+.articleBody{
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vh;
+}
+
 @media (min-width: 768px) {
   .pageCard{
     width: 40vw;

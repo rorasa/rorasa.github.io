@@ -4,8 +4,10 @@ import ArticlePage from '../components/articlelayout'
 const ArticleTemplate = ({ data }) => {
   const post = data.markdownRemark
   return(
-    <ArticlePage>
-      <h1>{post.frontmatter.title}</h1>
+    <ArticlePage
+      title={post.frontmatter.title}
+      backgroundColor={post.frontmatter.backgroundColor}
+      textColor={post.frontmatter.textColor}>
       <div dangerouslySetInnerHTML={{__html: post.html}}/>
     </ArticlePage>
   )
@@ -17,6 +19,8 @@ export const query = graphql`
       html
       frontmatter{
         title
+        backgroundColor
+        textColor
       }
     }
   }
