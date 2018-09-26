@@ -11,3 +11,17 @@
   padding: 10%;
   transition: background-image 2s ease-in-out;
 }
+
+.coverArrow {
+  font-size: 6vh;
+  color: rgba(255,255,255,0.5);
+  position: fixed;
+  right: 10vw;
+  bottom: 10vh;
+  transition: color 0.5s ease-in-out;
+  text-decoration: none;
+}
+.coverArrow:hover{
+  color: rgba(255,255,255,1.0);
+  transition: color 0.5s ease-in-out;
+}

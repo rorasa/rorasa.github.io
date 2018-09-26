@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faChevronCircleRight} from '@fortawesome/free-solid-svg-icons'
 
-import Layout from './layout'
 import "./style.css"
 
 import cover1 from '../images/cover-1.jpg'
@@ -58,6 +59,10 @@ class CoverPage extends React.Component {
         color: color
       }}>
         {this.props.children}
+        <a className="coverArrow" href={this.props.nextPage}>
+          <FontAwesomeIcon icon={faChevronCircleRight} />
+        </a>
+
       </div>
     )
   }
