@@ -18,28 +18,28 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <div>
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Personal landing page of Wattanit Hotrakool' },
+            { name: 'keywords', content: 'rorasa, wattanit, hotrakool, landing page, portfolio, research, programmer' },
           ]}
         >
           <html lang="en" />
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
             margin: '0 auto',
-            maxWidth: 960,
-            padding: '0px 1.0875rem 1.45rem',
+            maxWidth: 1440,
+            padding: '0px 5% 5%',
             paddingTop: 0,
+            backgroundColor: 'red'
           }}
         >
           {children}
         </div>
-      </>
+      </div>
     )}
   />
 )
