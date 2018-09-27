@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Wattanit.info',
+    description: 'Personal landing page of Wattanit Hotrakool',
+    keywords: 'rorasa, wattanit, hotrakool, landing page, portfolio, research, programmer',
     navbar: [
       {
         text: 'Main',

@@ -12,6 +12,8 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            description
+            keywords
           }
         }
       }
@@ -21,23 +23,13 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Personal landing page of Wattanit Hotrakool' },
-            { name: 'keywords', content: 'rorasa, wattanit, hotrakool, landing page, portfolio, research, programmer' },
+            { name: 'description', content: data.site.siteMetadata.description },
+            { name: 'keywords', content: data.site.siteMetadata.keywords },
           ]}
         >
           <html lang="en" />
         </Helmet>
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 1440,
-            padding: '0px 5% 5%',
-            paddingTop: 0,
-            backgroundColor: 'red'
-          }}
-        >
-          {children}
-        </div>
+        {children}
       </div>
     )}
   />
