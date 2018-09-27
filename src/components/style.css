@@ -1,3 +1,63 @@
+.navbar {
+  color: white;
+
+  position: absolute;
+  top: 5vh;
+  right: 5vw;
+  z-index: 1000;
+}
+
+.navbar .bar1, .bar2, .bar3{
+  width: 35px;
+  height: 4px;
+  background-color: rgba(255,255,255,0.5);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.navbar:hover .bar1, .navbar:hover .bar2, .navbar:hover .bar3{
+  background-color: rgba(255,255,255,1);
+}
+
+.navbar-active .bar1{
+  background-color: rgba(255,255,255,1);
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.navbar-active .bar2{
+  opacity: 0;
+}
+
+.navbar-active .bar3{
+  background-color: rgba(255,255,255,1);
+  transform: rotate(45deg) translate(-8px, -6px) ;
+}
+
+.navmenu{
+  z-index: 500;
+  position: absolute;
+  right: 0;
+  top: 0;
+  min-height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  padding-top: 15vh;
+  transition: 0.4s;
+}
+
+.navmenu .navmenu-item{
+  padding: 20px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.navmenu .navmenu-item a{
+  text-decoration: none;
+  color: white;
+}
+
 .coverImage {
   background-color: black;
   background-repeat: no-repeat;
@@ -20,6 +80,11 @@
   bottom: 10vh;
   transition: color 0.5s ease-in-out;
   text-decoration: none;
+}
+@media screen and (orientation:landscape) {
+  .coverArrow {
+    font-size: 6vw;
+  }
 }
 .coverArrow:hover{
   color: rgba(255,255,255,1.0);
@@ -91,6 +156,9 @@
 }
 
 @media (min-width: 768px) {
+  .navmenu{
+    max-width: 400px;
+  }
   .pageCard{
     width: 40vw;
     margin-left: 7vw;

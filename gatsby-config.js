@@ -1,6 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: 'Wattanit.info',
+    navbar: [
+      {
+        text: 'Main',
+        href: '/',
+      },
+      {
+        text: 'Research',
+        href: '/research/'
+      }
+    ]
   },
   plugins: [
     'gatsby-plugin-react-helmet',
