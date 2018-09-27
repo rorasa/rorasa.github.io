@@ -11,6 +11,26 @@ module.exports = {
       {
         text: 'Research',
         href: '/research/'
+      },
+      {
+        text: 'Development',
+        href: '/development/'
+      },
+      {
+        text: 'Business',
+        href: '/business/'
+      },
+      {
+        text: 'Hobbies',
+        href: '/hobbies/'
+      },
+      {
+        text: 'Blog',
+        href: '/blog/'
+      },
+      {
+        text: 'Contacts',
+        href: '/contacts/'
       }
     ]
   },
