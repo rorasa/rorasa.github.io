@@ -3,13 +3,23 @@ import { Link } from 'gatsby'
 
 import CoverPage from '../components/coverlayout'
 import Navbar from '../components/navbar'
+import '../components/style.css'
 
 const IndexPage = () => (
   <CoverPage nextPage="/mainmenu/">
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div style={{
+      textAlign: "right",
+      position: "absolute",
+      bottom: "20vh",
+      right: "10vw"
+    }}>
+      <h1 style={{
+        fontFamily: "'Lora', serif",
+        fontSize: "1.2em",
+        letterSpacing: "2px"
+      }}>WATTANIT.INFO</h1>
+      <p>Personal website of Dr Wattanit Hotrakool</p>
+    </div>
     <Navbar/>
   </CoverPage>
 )
