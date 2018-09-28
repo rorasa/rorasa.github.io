@@ -4,6 +4,20 @@ backgroundColor: black
 textColor: white
 ---
 
-This is an example of how a markdown page is written.
+## EATLAB Co., Ltd.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nulla, sollicitudin sed luctus ultrices, maximus et elit. In hac habitasse platea dictumst. Cras commodo leo quis lectus laoreet, non interdum metus sollicitudin. Proin sodales consequat nulla eget tempor. Cras sit amet egestas nunc, a mattis ipsum. Duis a iaculis ipsum. Vivamus scelerisque lobortis tempus. Sed quis lectus venenatis, posuere turpis at, pretium nibh. Maecenas sodales, nulla et porta convallis, dui ante imperdiet diam, eu viverra turpis metus in turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur id enim nec libero dapibus condimentum eu id risus. Sed ante magna, gravida vitae magna et, fermentum eleifend magna. Morbi sed tortor sed ipsum tristique consequat ut ac arcu. Aliquam sit amet aliquam diam. Suspendisse in urna mollis, facilisis risus id, porta risus. Suspendisse ac facilisis diam.
+![](img/business-2.jpg)
+
+[EATLAB](http://www.eatlab.space) is a deep tech spin-out that helps food and beverage companies capture true customer demands, using Artificial Intelligence and big data.
+
+Wattanit is an EATLAB Technologist and currently serves as the leader of EATLAB Technical Team in charge of development of both software, hardware, and analysis algorithms.
+
+## Datahives Ltd
+
+![](img/business-1.png)
+
+[Datahives](http://www.datahives.io) Ltd was founded in 2017 to tackle one of the biggest pain in the modern Machine learning-driven, data-driven businesses: dataset labelling.
+Since then Datahives Ltd has spun itself into a wider range of software and development, focusing on support tools for emerging technologies.
+The goal of Datahives is to hasten adoption of emerging technologies to wider industries.
+
+Wattanit is the founder of Datahives Ltd.
