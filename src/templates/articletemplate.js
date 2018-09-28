@@ -1,6 +1,5 @@
 import React from 'react'
 import ArticlePage from '../components/articlelayout'
-import Navbar from '../components/navbar'
 
 const ArticleTemplate = ({ data }) => {
   const post = data.markdownRemark
@@ -9,7 +8,6 @@ const ArticleTemplate = ({ data }) => {
       title={post.frontmatter.title}
       backgroundColor={post.frontmatter.backgroundColor}
       textColor={post.frontmatter.textColor}>
-      <Navbar/>
       <div dangerouslySetInnerHTML={{__html: post.html}}/>
     </ArticlePage>
   )

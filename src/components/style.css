@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
+body{
+  overflow-x: hidden;
+  position: relative;
+}
+
 .navbar {
   color: white;
   position: absolute;
@@ -48,8 +53,8 @@
 
 .navmenu .navmenu-item{
   padding: 20px;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
   border-bottom-style: solid;
   border-bottom-width: 2px;
 }
@@ -75,6 +80,7 @@
 
 .coverArrow {
   font-size: 6vh;
+  max-height: 60px;
   color: rgba(255,255,255,0.5);
   position: fixed;
   right: 10vw;
@@ -98,6 +104,8 @@
   height: 100%;
   min-height: 100vh;
   padding-top: 10vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .pageCard {
@@ -139,6 +147,10 @@
   text-overflow: clip;
 }
 
+.articlePage{
+  height: 100vh;
+}
+
 .articleHeader {
   height: 200px;
   max-height: 50vh;
@@ -158,7 +170,7 @@
 
 @media (min-width: 768px) {
   .navmenu{
-    max-width: 400px;
+    max-width: 450px;
   }
   .pageCard{
     width: 40vw;

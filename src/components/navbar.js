@@ -37,7 +37,7 @@ class Navbar extends React.Component {
         render={data=>{
           const classname = (this.state.navbarActive)?"navbar navbar-active":"navbar"
           const navmenuLocation = (this.state.navbarActive)?"0":"-100%"
-
+          const navmenuVisibility = (this.state.navbarActive)?"visible":"hidden"
           return(
             <div>
               <div className={classname} onClick={this.handleNavChange}>
@@ -46,6 +46,7 @@ class Navbar extends React.Component {
                 <div className="bar3"/>
               </div>
               <div className="navmenu" style={{
+                // visibility: navmenuVisibility,
                 right: navmenuLocation
               }}>
                 {data.site.siteMetadata.navbar.map((item,index)=>{

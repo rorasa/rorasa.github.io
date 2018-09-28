@@ -1,9 +1,10 @@
 import React from 'react'
 
+import Navbar from '../components/navbar'
 import './style.css'
 
 const ArticlePage = (props) => (
-  <div>
+  <div className="articlePage">
     <div className="articleHeader" style={{
       backgroundColor: props.backgroundColor,
       color: props.textColor
@@ -13,6 +14,7 @@ const ArticlePage = (props) => (
     <div className="articleBody">
       {props.children}
     </div>
+    <Navbar/>
   </div>
 )
 

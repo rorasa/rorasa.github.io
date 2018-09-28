@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faChevronCircleRight} from '@fortawesome/free-solid-svg-icons'
 
+import Navbar from '../components/navbar'
 import "./style.css"
 
 import cover1 from '../images/cover-1.jpg'
@@ -60,7 +61,7 @@ class CoverPage extends React.Component {
         <a className="coverArrow" href={this.props.nextPage}>
           <FontAwesomeIcon icon={faChevronCircleRight} />
         </a>
-
+        <Navbar/>
       </div>
     )
   }

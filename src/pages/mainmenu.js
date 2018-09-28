@@ -2,7 +2,7 @@ import React from 'react'
 
 import GridPage from '../components/gridlayout'
 import PageCard from '../components/pageCard'
-import Navbar from '../components/navbar'
+
 
 import background from '../images/cover-4.jpg'
 import cover1 from '../images/cover-1.jpg'
@@ -26,7 +26,6 @@ const mainmenu = ({ data }) => (
       <PageCard title="Business and Experience" href="/business/"/>
       <PageCard title="Hobbies" href="/hobbies/"/>
       <PageCard title="Contact" href="/contact/"/>
-      <Navbar/>
     </div>
   </GridPage>
 )

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import CoverPage from '../components/coverlayout'
-import Navbar from '../components/navbar'
+
 import '../components/style.css'
 
 const IndexPage = () => (
@@ -20,7 +20,6 @@ const IndexPage = () => (
       }}>WATTANIT.INFO</h1>
       <p>Personal website of Dr Wattanit Hotrakool</p>
     </div>
-    <Navbar/>
   </CoverPage>
 )
 
