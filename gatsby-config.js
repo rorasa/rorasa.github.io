@@ -36,6 +36,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -55,7 +56,23 @@ module.exports = {
         path: `${__dirname}/src/`
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-copy-images`,
+          {
+          resolve: `gatsby-remark-images`,
+          options: {
+            // It's important to specify the maxWidth (in pixels) of
+            // the content container as this plugin uses this as the
+            // base for generating different widths of each image.
+            maxWidth: 600,
+          },
+        }
+        ]
+      }
+    },
     'gatsby-plugin-offline',
   ],
 }
