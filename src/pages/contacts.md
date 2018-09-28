@@ -1,9 +1,51 @@
 ---
 title: Contact
-backgroundColor: black
+backgroundColor: rgb(0,128,127)
 textColor: white
 ---
 
-This is an example of how a markdown page is written.
+If you wish to reach out to me, feel free to contact me via any services listed below.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque turpis nulla, sollicitudin sed luctus ultrices, maximus et elit. In hac habitasse platea dictumst. Cras commodo leo quis lectus laoreet, non interdum metus sollicitudin. Proin sodales consequat nulla eget tempor. Cras sit amet egestas nunc, a mattis ipsum. Duis a iaculis ipsum. Vivamus scelerisque lobortis tempus. Sed quis lectus venenatis, posuere turpis at, pretium nibh. Maecenas sodales, nulla et porta convallis, dui ante imperdiet diam, eu viverra turpis metus in turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur id enim nec libero dapibus condimentum eu id risus. Sed ante magna, gravida vitae magna et, fermentum eleifend magna. Morbi sed tortor sed ipsum tristique consequat ut ac arcu. Aliquam sit amet aliquam diam. Suspendisse in urna mollis, facilisis risus id, porta risus. Suspendisse ac facilisis diam.
+Please note that I would like to reserve some services, such as Facebook, only for friends and family that I really know them in persons.
+
+## Social networks
+
+**Professional**
+
+- LinkedIn : [Wattanit Hotrakool](https://uk.linkedin.com/in/wattanit)
+- Researchgate : [Wattanit Hotrakool](https://www.researchgate.net/profile/Wattanit_Hotrakool)
+- ORCID : [0000-0002-7991-5136](https://orcid.org/0000-0002-7991-5136)
+
+**Social media**
+
+- Twitter : @[rorasa](https://twitter.com/rorasa)
+- Instagram : [wattanit_h](https://www.instagram.com/wattanit_h/)
+
+**Communities**
+
+- Devianart : [wrorasa](https://www.deviantart.com/wrorasa)
+- 500px : [wrorasa](https://500px.com/wrorasa)
+
+## Emails
+
+**Work and business enquiries**
+
+- dr.wattanit.hotrakool@ieee.org - Academic enquiries
+- wattanit@eatlab.space - EATLAB's enquiries
+- wattanit@datahives.io - Datahives's enquiries
+
+**Personal enquiries**
+
+- wattanit.h@gmail.com
+- wattanit.h@live.co.uk
+- wattanit@protonmail.com
+
+## Phones
+
+**Thailand**
+
++66 (0) 98 252 1912
+
+**United Kingdom**
+
++44 (0) 20 8133 0074

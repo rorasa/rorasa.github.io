@@ -33,7 +33,7 @@ const mainmenu = ({ data }) => (
       <PageCard title="Hobbies" href="/hobbies/" backgroundUrl={menu4} textColor="white">
         <p>Arts and Music</p>
       </PageCard>
-      <PageCard title="Contact" href="/contact/" backgroundUrl={menu5} textColor="white"/>
+      <PageCard title="Contact" href="/contacts/" backgroundUrl={menu5} textColor="white"/>
     </div>
   </GridPage>
 )
