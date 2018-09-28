@@ -10,27 +10,27 @@ module.exports = {
       },
       {
         text: 'Research',
-        href: '/research/'
+        href: 'research/'
       },
       {
         text: 'Development',
-        href: '/development/'
+        href: 'development/'
       },
       {
         text: 'Business',
-        href: '/business/'
+        href: 'business/'
       },
       {
         text: 'Hobbies',
-        href: '/hobbies/'
+        href: 'hobbies/'
       },
       {
         text: 'Blog',
-        href: '/blog/'
+        href: 'blog/'
       },
       {
         text: 'Contacts',
-        href: '/contacts/'
+        href: 'contacts/'
       }
     ]
   },
