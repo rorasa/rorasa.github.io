@@ -6,7 +6,7 @@ import CoverPage from '../components/coverlayout'
 import '../components/style.css'
 
 const IndexPage = () => (
-  <CoverPage nextPage="/mainmenu/">
+  <CoverPage nextPage="mainmenu/">
     <div style={{
       textAlign: "right",
       position: "absolute",

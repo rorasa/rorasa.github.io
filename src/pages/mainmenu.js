@@ -21,19 +21,19 @@ const mainmenu = ({ data }) => (
         backgroundPosition: "center",
         backgroundSize: "cover"
     }}>
-      <PageCard title="Research" href="/research/" backgroundUrl={menu1} textColor="white">
+      <PageCard title="Research" href="research/" backgroundUrl={menu1} textColor="white">
         <p>Academic activities</p>
       </PageCard>
-      <PageCard title="Development" href="/development/" backgroundUrl={menu2} textColor="white">
+      <PageCard title="Development" href="development/" backgroundUrl={menu2} textColor="white">
         <p>Software projects</p>
       </PageCard>
-      <PageCard title="Business" href="/business/" backgroundUrl={menu3} textColor="white">
+      <PageCard title="Business" href="business/" backgroundUrl={menu3} textColor="white">
         <p>Professional experience</p>
       </PageCard>
-      <PageCard title="Hobbies" href="/hobbies/" backgroundUrl={menu4} textColor="white">
+      <PageCard title="Hobbies" href="hobbies/" backgroundUrl={menu4} textColor="white">
         <p>Arts and Music</p>
       </PageCard>
-      <PageCard title="Contact" href="/contacts/" backgroundUrl={menu5} textColor="white"/>
+      <PageCard title="Contact" href="contacts/" backgroundUrl={menu5} textColor="white"/>
     </div>
   </GridPage>
 )

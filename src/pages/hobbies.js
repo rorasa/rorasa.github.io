@@ -21,11 +21,11 @@ const hobbies = ({ data }) => (
       backgroundPosition: "center",
       backgroundSize: "cover"
     }}>
-      <PageCard title="Music" href="/music/" backgroundUrl={menu1} textColor="white"/>
-      <PageCard title="Arts" href="/arts/" backgroundUrl={menu2} textColor="white"/>
-      <PageCard title="Religion" href="/religion/" backgroundUrl={menu5} textColor="white"/>
-      <PageCard title="Collections" href="/collections/" backgroundUrl={menu4} textColor="white"/>
-      <PageCard title="Calligraphy" href="/calligraphy/" backgroundUrl={menu3} textColor="white"/>
+      <PageCard title="Music" href="hobbies/music/" backgroundUrl={menu1} textColor="white"/>
+      <PageCard title="Arts" href="hobbies/arts/" backgroundUrl={menu2} textColor="white"/>
+      <PageCard title="Religion" href="hobbies/religion/" backgroundUrl={menu5} textColor="white"/>
+      <PageCard title="Collections" href="hobbies/collections/" backgroundUrl={menu4} textColor="white"/>
+      <PageCard title="Calligraphy" href="hobbies/calligraphy/" backgroundUrl={menu3} textColor="white"/>
       <Navbar/>
     </div>
   </GridPage>
