@@ -126,10 +126,12 @@ body{
   margin-bottom: 5vh;
   min-height: 30vh;
   display: block;
+  opacity: 0.75;
 }
 
 .pageCard:hover{
-  border-color: rgba(255,0,0,1);
+  opacity: 1;
+  transition: 0.4s;
 }
 
 .pageCard .pageCardContent{
